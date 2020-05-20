@@ -1,0 +1,11 @@
+http://www.thejavageek.com/2014/01/12/jpa-crud-example/
+
+
+CREATE TABLE `employee` (
+  `idemployee` int(11) NOT NULL,
+  `firstname` varchar(45) default NULL,
+  `lastname` varchar(45) default NULL,
+  `email` varchar(45) default NULL,
+  PRIMARY KEY  (`idemployee`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
